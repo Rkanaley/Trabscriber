@@ -1,0 +1,22 @@
+# Ignore configuration files that contain sensitive information
+wp-config.php
+
+# Ignore specific configuration files
+*.env
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore any log files
+*.log
+
+# Ignore other directories that might contain build outputs or caches
+build/
+cache/
+dist/
+
+# Ignore vendor directory (if you're using Composer)
+vendor/
